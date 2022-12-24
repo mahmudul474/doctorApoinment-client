@@ -57,6 +57,9 @@ fetch("http://localhost:5000/booking",{
   
     setTretment(null)
   }
+  else{
+    toast.error(data.message);
+  }
 })
 
 
